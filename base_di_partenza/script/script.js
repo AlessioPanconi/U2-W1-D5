@@ -1,5 +1,5 @@
-const yelloSection = document.getElementById("yellowSection");
 const navbar = document.getElementById("header");
+const yellowSection = document.getElementById("yellowSection");
 const headerbutton = document.getElementById("headerButton");
 
 window.addEventListener("scroll", () => {
