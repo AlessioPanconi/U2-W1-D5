@@ -191,6 +191,7 @@ main {
   flex-direction: row;
   margin-top: 3rem;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 #cardContainer {
@@ -264,6 +265,8 @@ main {
 /*Aside*/
 
 aside {
+  position: sticky;
+  top: 110px;
   display: flex;
   flex-direction: column;
   width: 33%;
