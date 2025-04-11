@@ -9,6 +9,13 @@ body {
   font-size: 1rem;
 }
 
+.scrolled {
+  background-color: white;
+}
+.scrolled1 {
+  background-color: #1a8917;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -22,6 +29,8 @@ header {
   justify-content: space-between;
 
   border-bottom: 1px solid #191919;
+
+  transition: background-color 0.5s ease;
 }
 
 header img {
@@ -43,6 +52,7 @@ header button {
   padding-block: 0.6rem;
   padding-inline: 0.8rem;
   cursor: pointer;
+  transition: background-color 0.5s ease;
 }
 
 /**/
@@ -58,6 +68,8 @@ header button {
   position: relative;
   height: 31vw;
   overflow: hidden;
+
+  transition: background-color 0.5s ease;
 }
 #yellowSection div {
   margin-left: 10rem;
